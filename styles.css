@@ -56,15 +56,15 @@ header h1 {
     text-align: left;
     margin-top: 10px;
     padding: 0;
-
 }
-/* NOTE - if you want to only adjust certain elements not global elements then use the above notation (e.g. not .dot. before p or h2) */
 
-p a {
+
+/* NOTE - if you want to only adjust certain elements not global elements then use the above notation (e.g. not .dot. before p or h2) */
+.container .text-content a {
     text-decoration: none;
 }
 
-p a:hover {
+.container .text-content p a:hover {
     text-decoration: underline;
 }
 

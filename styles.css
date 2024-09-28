@@ -60,7 +60,13 @@ header h1 {
 }
 /* NOTE - if you want to only adjust certain elements not global elements then use the above notation (e.g. not .dot. before p or h2) */
 
+p a {
+    text-decoration: none;
+}
 
+p a:hover {
+    text-decoration: underline;
+}
 
 .home-link {
     text-decoration: none;
